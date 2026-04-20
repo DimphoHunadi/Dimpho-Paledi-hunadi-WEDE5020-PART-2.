@@ -1,8 +1,32 @@
 body {
-    background-color: aqua;
-    background-image: url(tree.jpg);
+    text-align: center;
+    color: black;
+ 
+    
+    background-color: blanchedalmond;
     height:100vh ;
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-position: bottom;
+
+    font-size: larger;
+    font-weight: lighter;
+    font-style: oblique;
+
+    
+}
+nav a{
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 2px;
+    background-color: black;
+    color: beige;
+    text-decoration: none;
+    border-radius: 10px;
+
+    nav a:hover{
+        background-color: blueviolet;
+    }
+
+    
+
 }
